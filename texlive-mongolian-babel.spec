@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/mongolian/babel
+# catalog-date 2010-06-08 01:06:42 +0200
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-mongolian-babel
 Version:	1.2
 Release:	1
@@ -46,6 +52,7 @@ babel.).
 #- source
 %doc %{_texmfdistdir}/source/latex/mongolian-babel/mongolian.dtx
 %doc %{_texmfdistdir}/source/latex/mongolian-babel/mongolian.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ babel.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
