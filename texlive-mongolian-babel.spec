@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-mongolian-babel
 Version:	1.2
-Release:	4
+Release:	5
 Summary:	A language definition file for Mongolian in Babel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/mongolian/babel
