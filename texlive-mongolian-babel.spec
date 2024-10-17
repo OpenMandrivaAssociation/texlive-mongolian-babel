@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A language definition file for Mongolian in Babel
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/mongolian/babel
+URL:		https://www.ctan.org/tex-archive/language/mongolian/babel
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mongolian-babel.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mongolian-babel.doc.r%{version}.tar.xz
